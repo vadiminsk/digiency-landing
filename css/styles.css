@@ -1,4 +1,161 @@
-body {
-  color: red; }
+/* Common styles */
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Njc3Mvc3R5bGVzLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBTUE7RUFDRSxVQUFVLEVBQUEiLCJmaWxlIjoic3R5bGVzLmNzcyJ9 */
+.body {
+  position: relative;
+  max-width: 1440px;
+  margin: auto;
+  color: #373737;
+  font-family: "Work-Sans Medium";
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+.section {
+  padding: 150px 0 155px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  height: auto;
+}
+
+button {
+  border: none;
+  background: transparent;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-family: "Work-Sans Bold";
+  font-size: 48px;
+  line-height: 1.25;
+}
+
+h2,
+h3,
+h4 {
+  font-family: "Work-Sans Semibold";
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h1 > span,
+h2 > span {
+  color: #ff5300;
+}
+
+p {
+  color: #7b7b7b;
+  font-family: "Work-Sans Regular";
+  line-height: 1.5;
+}
+
+.btn {
+  padding: 13px 22px 12px;
+  background: #ff5300;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Header */
+
+.header {
+  padding: 30px 0;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header__logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 18px;
+}
+
+.header__nav {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header__nav > ul {
+  margin: 0;
+}
+
+.header__nav > ul > li {
+  display: inline-block;
+  padding: 7px 20px;
+}
+
+.header__nav > ul > li > a {
+  color: #373737;
+  text-transform: capitalize;
+}
+
+.header__button {
+  float: right;
+  padding: 5px 0;
+}
+
+.header__button img {
+  cursor: pointer;
+}
+
+/* Social */
+
+.social {
+  position: sticky;
+  top: 320px;
+}
+
+.social ul {
+  position: absolute;
+  right: 0;
+}
+
+.social li {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 5px;
+  padding: 8px;
+  background: #fff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.social li img {
+  max-width: 24px;
+  max-height: 24px;
+}
+
+/* Hero section */
+
+.hero {
+  background: #fff7f4;
+}
+
+.hero p {
+  margin-bottom: 50px;
+}
+
+.hero .wrapper > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.hero__text {
+  width: 40%;
+}
+
+.hero__image {
+  padding-left: 50px;
+}
